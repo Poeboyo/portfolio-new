@@ -29,10 +29,6 @@ main {
   .headshot-text {
     margin-top: 2%;
   }
-  .buzz-buzz {
-    height: 25%;
-    width: 99%;
-  }
 }
 @media (min-width: 800px) {
   .headshot {
@@ -60,10 +56,6 @@ main {
   .headshot-text {
     margin-top: 2%;
   }
-  .buzz-buzz {
-    height: 25%;
-    width: 99%;
-  }
 }
 
 @media (max-width: 620px) {
@@ -77,10 +69,6 @@ main {
   }
   .headshot-text {
     margin-top: 2%;
-  }
-  .buzz-buzz {
-    height: 25%;
-    width: 99%;
   }
 }
 
@@ -137,10 +125,6 @@ main {
   .headshot-text {
     margin-top: 2%;
   }
-  .buzz-buzz {
-    height: 25%;
-    width: 99%;
-  }
 }
 
 @media (min-width: 900px) {
@@ -192,7 +176,9 @@ main {
   width: 110%;
 }
 .about-me {
+  margin-top: 5%;
   text-align: center;
+  opacity: 1;
 }
 .row {
   margin-top: 2.5%;
@@ -208,4 +194,8 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
 }
